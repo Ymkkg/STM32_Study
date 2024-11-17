@@ -1,0 +1,4 @@
+../Src/Init.c:3:6:Init	8	static
+../Src/Init.c:9:6:Init_Sysclk	8	static
+../Src/Init.c:23:6:Init_PeriClk_Enable	8	static
+../Src/Init.c:28:6:Init_GPIO	16	static

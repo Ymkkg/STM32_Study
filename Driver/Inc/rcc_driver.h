@@ -6,9 +6,21 @@
 /*
  * User Define
  */
-#define HSI		0
-#define HSE		1
-#define PLL		2
+#define HSI			0
+#define HSE			1
+#define PLL			2
+
+#define MCO2_SYSCLK	0
+#define MCO2_PLLI2S	1
+#define MCO2_HSE	2
+#define MCO2_PLL	3
+
+#define DIV_2		4
+#define DIV_3		5
+#define DIV_4		6
+#define DIV_5		7
+
+
 
 /*
  * RCC_CR
@@ -23,8 +35,19 @@
 /*
  * RCC_CFGR
  */
-#define SW		0
-#define SWS		1
+#define SW			0
+#define SWS			1
+#define MCO1		21
+#define MCO1_PRE	24
+#define MCO2_PRE	27
+#define MCO2		30
+
+/*
+ * RCC_AHB1ENR
+ */
+#define GPIOAEN		0
+#define GPIOBEN		1
+#define GPIOCEN		2
 
 
 
@@ -72,5 +95,7 @@ typedef struct
 void Enable_Sysclk_Input(uint8_t clk_source);
 void Wait_Sysclk_Ready(uint8_t clk_source);
 void Set_Sysclk_Input(uint8_t clk_source);
+void Enable_AHB1_Peri_Clk(uint8_t peri, uint8_t en_dis);
+void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
 
 #endif	/* RCC_DRIVER_H */

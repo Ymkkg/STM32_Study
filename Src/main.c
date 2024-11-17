@@ -19,12 +19,9 @@
 #include <stdint.h>
 #include "Init.h"
 
-
-
 int main(void)
 {
 	Init();
-
 
 	while(1)
 	{

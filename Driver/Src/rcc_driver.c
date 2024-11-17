@@ -60,5 +60,22 @@ void Set_Sysclk_Input(uint8_t clk_source)
   pRCC->CFGR |= clk_source << SW;
 }
 
+void Enable_AHB1_Peri_Clk(uint8_t peri, uint8_t en_dis)
+{
+	if(en_dis == ENABLE)
+	{
+		pRCC->AHB1ENR |= 1 << peri;
+	}
+	else
+	{
+		pRCC->AHB1ENR &= ~(1 << peri);
+	}
+}
+
+void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
+{
+	pRCC->CFGR |= mco2_source << MCO2;
+	pRCC->CFGR |= prescaler << MCO2_PRE;
+}
 
 
