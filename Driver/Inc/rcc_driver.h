@@ -6,6 +6,8 @@
 /*
  * User Define
  */
+#define SYSCLK		HSE
+
 #define HSI			0
 #define HSE			1
 #define PLL			2
@@ -20,7 +22,8 @@
 #define DIV_4		6
 #define DIV_5		7
 
-
+#define PLLSRC_HSI	0
+#define PLLSRC_HSE	1
 
 /*
  * RCC_CR
@@ -48,6 +51,14 @@
 #define GPIOAEN		0
 #define GPIOBEN		1
 #define GPIOCEN		2
+
+/*
+ * RCC_PLLCFGR
+ */
+#define PLLM		0
+#define PLLN		6
+#define PLLP		16
+#define PLLSRC		22
 
 
 
@@ -96,6 +107,7 @@ void Enable_Sysclk_Input(uint8_t clk_source);
 void Wait_Sysclk_Ready(uint8_t clk_source);
 void Set_Sysclk_Input(uint8_t clk_source);
 void Enable_AHB1_Peri_Clk(uint8_t peri, uint8_t en_dis);
-void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
+void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler);
+void Set_PLLClk(uint8_t pll_src, uint8_t m, uint8_t n, uint8_t p);
 
 #endif	/* RCC_DRIVER_H */

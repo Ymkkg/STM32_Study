@@ -44,7 +44,7 @@ void Wait_Sysclk_Ready(uint8_t clk_source)
       break;
 
     case PLL:
-      while((pRCC->CR & 1 << PLLRDY) == 1);
+      while((pRCC->CR & 1 << PLLRDY) == 0);
       break;
 
     default:
@@ -78,4 +78,17 @@ void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
 	pRCC->CFGR |= prescaler << MCO2_PRE;
 }
 
+void Set_PLLClk(uint8_t pll_src, uint8_t m, uint8_t n, uint8_t p)
+{
+	//clear reset value
+	pRCC->PLLCFGR &= ~(0xffff);
+
+	pRCC->PLLCFGR |= pll_src << PLLSRC;
+	//4  -> 2MHz
+	pRCC->PLLCFGR |= m << PLLM;
+	//50 -> 100MHz
+	pRCC->PLLCFGR |= n << PLLN;
+	//1  -> 25MHz
+	pRCC->PLLCFGR |= p << PLLP;
+}
 
