@@ -1,0 +1,3 @@
+../Driver/Src/rcc_driver.c:9:6:Enable_Sysclk_Input	16	static
+../Driver/Src/rcc_driver.c:34:6:Wait_Sysclk_Ready	16	static
+../Driver/Src/rcc_driver.c:58:6:Set_Sysclk_Input	16	static
