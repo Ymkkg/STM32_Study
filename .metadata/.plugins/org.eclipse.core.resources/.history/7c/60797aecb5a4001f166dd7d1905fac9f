@@ -1,0 +1,25 @@
+#include "Init.h"
+
+void Init(void)
+{
+	Init_Sysclk();
+	Init_GPIO();
+}
+
+void Init_Sysclk(void)
+{
+	  Enable_Sysclk_Input(HSE);
+	  Wait_Sysclk_Ready(HSE);
+	  Set_Sysclk_Input(HSE);
+	  Init_PeriClk_Enable();
+}
+
+void Init_PeriClk_Enable(void)
+{
+	Enable_AHB1_Peri_Clk(GPIOCEN, ENABLE);
+}
+
+void Init_GPIO(void)
+{
+	Set_GPIO_Init_Config(GPIOC_ADDR, 9, MODE_ALTER, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
+}

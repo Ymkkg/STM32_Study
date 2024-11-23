@@ -1,0 +1,28 @@
+#ifndef	GPIO_DRIVER_H
+#define GPIO_DRIVER_H
+
+#include "stm32f4xx.h"
+
+/*
+ * User Define
+ */
+#define INPUT	0
+#define OUTPUT	1
+#define ALTER	2
+#define ANALOG	3
+
+typedef struct
+{
+	volatile uint32_t MODER;
+	volatile uint32_t OTYPER;
+	volatile uint32_t OSPEEDR;
+	volatile uint32_t PUPDR;
+	volatile uint32_t IDR;
+	volatile uint32_t ODR;
+	volatile uint32_t BSRR;
+	volatile uint32_t LCKR;
+	volatile uint32_t AFRL;
+	volatile uint32_t AFRH;
+} GPIOx_Reg_t;
+
+#endif /* GPIO_DRIVER_H */

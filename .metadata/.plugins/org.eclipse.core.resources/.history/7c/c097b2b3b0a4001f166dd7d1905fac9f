@@ -1,0 +1,21 @@
+#include "Init.h"
+
+void Init(void)
+{
+	Init_Sysclk();
+}
+
+void Init_Sysclk(void)
+{
+	  Enable_Sysclk_Input(HSE);
+	  Wait_Sysclk_Ready(HSE);
+	  Set_Sysclk_Input(HSE);
+}
+
+void Init_GPIO(void)
+{
+	Set_GPIO_Mode(GPIOA_ADDR, MODE_ALTER, 9);
+	Set_GPIO_Output_Type(GPIOA_ADDR, TYPE_PUSH_PULL, 9);
+	Set_GPIO_Output_Speed(GPIOA_ADDR, SPEED_LOW, 9);
+	Set_GPIO_PUPD(GPIOA_ADDR, PUPD_NO, 9);
+}
