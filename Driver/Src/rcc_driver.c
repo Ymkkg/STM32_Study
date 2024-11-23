@@ -74,8 +74,8 @@ void Enable_AHB1_Peri_Clk(uint8_t peri, uint8_t en_dis)
 
 void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
 {
-	pRCC->CFGR |= mco2_source << MCO2;
 	pRCC->CFGR |= prescaler << MCO2_PRE;
+	pRCC->CFGR |= mco2_source << MCO2;
 }
 
 void Set_PLLClk(uint8_t pll_src, uint8_t m, uint8_t n, uint8_t p)

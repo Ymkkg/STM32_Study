@@ -6,7 +6,7 @@
 /*
  * User Define
  */
-#define SYSCLK		HSE
+#define SYSCLK		PLL
 
 #define HSI			0
 #define HSE			1

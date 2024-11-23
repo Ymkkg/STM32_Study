@@ -486,22 +486,22 @@ void Set_Clk_Output2(uint8_t mco2_source, uint8_t prescaler)
  800043a:	71fb      	strb	r3, [r7, #7]
  800043c:	4613      	mov	r3, r2
  800043e:	71bb      	strb	r3, [r7, #6]
-	pRCC->CFGR |= mco2_source << MCO2;
+	pRCC->CFGR |= prescaler << MCO2_PRE;
  8000440:	4b0b      	ldr	r3, [pc, #44]	@ (8000470 <Set_Clk_Output2+0x40>)
  8000442:	681b      	ldr	r3, [r3, #0]
  8000444:	6899      	ldr	r1, [r3, #8]
- 8000446:	79fb      	ldrb	r3, [r7, #7]
- 8000448:	079a      	lsls	r2, r3, #30
+ 8000446:	79bb      	ldrb	r3, [r7, #6]
+ 8000448:	06da      	lsls	r2, r3, #27
  800044a:	4b09      	ldr	r3, [pc, #36]	@ (8000470 <Set_Clk_Output2+0x40>)
  800044c:	681b      	ldr	r3, [r3, #0]
  800044e:	430a      	orrs	r2, r1
  8000450:	609a      	str	r2, [r3, #8]
-	pRCC->CFGR |= prescaler << MCO2_PRE;
+	pRCC->CFGR |= mco2_source << MCO2;
  8000452:	4b07      	ldr	r3, [pc, #28]	@ (8000470 <Set_Clk_Output2+0x40>)
  8000454:	681b      	ldr	r3, [r3, #0]
  8000456:	6899      	ldr	r1, [r3, #8]
- 8000458:	79bb      	ldrb	r3, [r7, #6]
- 800045a:	06da      	lsls	r2, r3, #27
+ 8000458:	79fb      	ldrb	r3, [r7, #7]
+ 800045a:	079a      	lsls	r2, r3, #30
  800045c:	4b04      	ldr	r3, [pc, #16]	@ (8000470 <Set_Clk_Output2+0x40>)
  800045e:	681b      	ldr	r3, [r3, #0]
  8000460:	430a      	orrs	r2, r1
