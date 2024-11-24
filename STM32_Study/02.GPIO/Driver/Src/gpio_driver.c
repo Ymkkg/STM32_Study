@@ -27,3 +27,17 @@ void Set_GPIO_PUPD(GPIOx_Reg_t *pGPIOx, uint8_t pupd, uint8_t pin_num)
 {
 	pGPIOx->PUPDR |= (pupd << (pin_num * 2));
 }
+
+void Set_GPIO_Output(GPIOx_Reg_t *pGPIOx, uint8_t output, uint8_t pin_num)
+{
+	if(output == OUTPUT_SET)
+	{
+		pGPIOx->BSRR |= 1 << pin_num;
+	}
+	else
+	{
+		//OUTPUT_RESET
+		pGPIOx->BSRR |= 1 << (pin_num + 16);
+	}
+
+}

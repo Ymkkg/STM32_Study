@@ -1,18 +1,49 @@
-15:05:04 **** Build of configuration Debug for project STM32_Study ****
+12:24:23 **** Incremental Build of configuration Debug for project STM32_Study ****
 make -j12 all 
-arm-none-eabi-gcc "../Src/Init.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/Init.d" -MT"Src/Init.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Init.o"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc "../Driver/Src/gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/gpio_driver.d" -MT"Driver/Src/gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/gpio_driver.o"
-arm-none-eabi-gcc "../Driver/Src/rcc_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/01.Clcok/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/rcc_driver.d" -MT"Driver/Src/rcc_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/rcc_driver.o"
-arm-none-eabi-gcc -o "STM32_Study.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Test\STM32_Study\01.Clcok\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Study.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc "../Src/Init.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/02.GPIO/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/Init.d" -MT"Src/Init.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Init.o"
+arm-none-eabi-gcc "../Driver/Src/gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/02.GPIO/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/gpio_driver.d" -MT"Driver/Src/gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/gpio_driver.o"
+arm-none-eabi-gcc -o "STM32_Study.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Test\STM32_Study\02.GPIO\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Study.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: STM32_Study.elf
  
 arm-none-eabi-size  STM32_Study.elf 
 arm-none-eabi-objdump -h -S STM32_Study.elf  > "STM32_Study.list"
    text	   data	    bss	    dec	    hex	filename
-   1604	      4	   1564	   3172	    c64	STM32_Study.elf
+   1824	      4	   1564	   3392	    d40	STM32_Study.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_Study.list
+ 
+12:24:26 **** Incremental Build of configuration Debug for project STM32_Study ****
+make -j12 all 
+arm-none-eabi-size  STM32_Study.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1824	      4	   1564	   3392	    d40	STM32_Study.elf
+Finished building: default.size.stdout
+ 
+12:27:28 **** Incremental Build of configuration Debug for project STM32_Study ****
+make -j12 all 
+arm-none-eabi-gcc "../Driver/Src/gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/02.GPIO/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/gpio_driver.d" -MT"Driver/Src/gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/gpio_driver.o"
+arm-none-eabi-gcc -o "STM32_Study.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Test\STM32_Study\02.GPIO\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Study.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_Study.elf
+ 
+arm-none-eabi-size  STM32_Study.elf 
+arm-none-eabi-objdump -h -S STM32_Study.elf  > "STM32_Study.list"
+   text	   data	    bss	    dec	    hex	filename
+   1852	      4	   1564	   3420	    d5c	STM32_Study.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_Study.list
+ 
+12:32:16 **** Incremental Build of configuration Debug for project STM32_Study ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/Init.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"C:/Test/STM32_Study/02.GPIO/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/Init.d" -MT"Src/Init.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Init.o"
+arm-none-eabi-gcc -o "STM32_Study.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Test\STM32_Study\02.GPIO\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Study.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_Study.elf
+ 
+arm-none-eabi-size  STM32_Study.elf 
+arm-none-eabi-objdump -h -S STM32_Study.elf  > "STM32_Study.list"
+   text	   data	    bss	    dec	    hex	filename
+   1892	      4	   1564	   3460	    d84	STM32_Study.elf
 Finished building: default.size.stdout
  
 Finished building: STM32_Study.list

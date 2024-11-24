@@ -3,3 +3,4 @@
 ../Driver/Src/gpio_driver.c:16:6:Set_GPIO_Output_Type	16	static
 ../Driver/Src/gpio_driver.c:21:6:Set_GPIO_Output_Speed	16	static
 ../Driver/Src/gpio_driver.c:26:6:Set_GPIO_PUPD	16	static
+../Driver/Src/gpio_driver.c:31:6:Set_GPIO_Output	16	static

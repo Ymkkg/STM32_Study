@@ -1,6 +1,0 @@
-../Driver/Src/rcc_driver.c:9:6:Enable_Sysclk_Input	16	static
-../Driver/Src/rcc_driver.c:34:6:Wait_Sysclk_Ready	16	static
-../Driver/Src/rcc_driver.c:58:6:Set_Sysclk_Input	16	static
-../Driver/Src/rcc_driver.c:63:6:Enable_AHB1_Peri_Clk	16	static
-../Driver/Src/rcc_driver.c:75:6:Set_Clk_Output2	16	static
-../Driver/Src/rcc_driver.c:81:6:Set_PLLClk	16	static

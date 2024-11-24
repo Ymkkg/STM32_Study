@@ -1,4 +1,4 @@
 ../Src/Init.c:3:6:Init	1
 ../Src/Init.c:9:6:Init_Sysclk	1
 ../Src/Init.c:30:6:Init_PeriClk_Enable	1
-../Src/Init.c:35:6:Init_GPIO	1
+../Src/Init.c:36:6:Init_GPIO	1

@@ -14,6 +14,9 @@
 #define TYPE_PUSH_PULL	0
 #define TYPE_OPEN_DRAIN 1
 
+#define OUTPUT_RESET	0
+#define OUTPUT_SET		1
+
 /*
  * Speed Max Value
  * LOW       -> 8MHz
@@ -50,6 +53,6 @@ void Set_GPIO_Mode(GPIOx_Reg_t *pGPIOx, uint8_t mode, uint8_t pin_num);
 void Set_GPIO_Output_Type(GPIOx_Reg_t *pGPIOx, uint8_t type, uint8_t pin_num);
 void Set_GPIO_Output_Speed(GPIOx_Reg_t *pGPIOx, uint8_t speed, uint8_t pin_num);
 void Set_GPIO_PUPD(GPIOx_Reg_t *pGPIOx, uint8_t pupd, uint8_t pin_num);
-
+void Set_GPIO_Output(GPIOx_Reg_t *pGPIOx, uint8_t output, uint8_t pin_num);
 
 #endif /* GPIO_DRIVER_H */

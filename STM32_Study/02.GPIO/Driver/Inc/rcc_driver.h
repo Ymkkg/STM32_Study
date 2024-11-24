@@ -51,6 +51,7 @@
 #define GPIOAEN		0
 #define GPIOBEN		1
 #define GPIOCEN		2
+#define GPIODEN		3
 
 /*
  * RCC_PLLCFGR

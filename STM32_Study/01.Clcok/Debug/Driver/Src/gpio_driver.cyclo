@@ -1,5 +1,0 @@
-../Driver/Src/gpio_driver.c:3:6:Set_GPIO_Init_Config	1
-../Driver/Src/gpio_driver.c:11:6:Set_GPIO_Mode	1
-../Driver/Src/gpio_driver.c:16:6:Set_GPIO_Output_Type	1
-../Driver/Src/gpio_driver.c:21:6:Set_GPIO_Output_Speed	1
-../Driver/Src/gpio_driver.c:26:6:Set_GPIO_PUPD	1
