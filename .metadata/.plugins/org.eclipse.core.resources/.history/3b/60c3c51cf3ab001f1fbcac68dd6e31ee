@@ -1,0 +1,29 @@
+#include "timer_driver.h"
+
+void Start_Timer(TIMx_Reg_t *pTIMx)
+{
+	pTIMx->CR1 |= 1 << CEN;
+}
+
+void Set_Timer_Prescaler(TIMx_Reg_t *pTIMx, uint16_t prescaler)
+{
+	pTIMx->PSC = prescaler;
+}
+
+void Set_Timer_Auto_Reload(TIMx_Reg_t *pTIMx, uint16_t reload_value)
+{
+	pTIMx->ARR = reload_value;
+}
+
+void delay_ms(uint16_t time)
+{
+	TIMx_Reg_t *pTIM6 = (TIMx_Reg_t*)TIM6_ADDR;
+	pTIM6->SR = 0;
+
+	while((pTIM6->SR & 0x01) == 0);
+}
+
+void Set_Timer_Update_Request_Source(TIMx_Reg_t *pTIMx, uint8_t mode)
+{
+	pTIMx->CR1 |= 1 << 2;
+}

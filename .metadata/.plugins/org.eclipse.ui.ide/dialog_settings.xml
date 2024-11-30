@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Test\STM32_Study\03.Timer"/>
 			<item value="C:\Test\STM32_Study\02.GPIO"/>
 			<item value="C:\Test\STM32_Study\01.Clcok"/>
 			<item value="C:\Development\01.Software\06.SideProject\01.AutomotiveDataLogger"/>

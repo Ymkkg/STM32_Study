@@ -1,0 +1,6 @@
+#include "timer_driver.h"
+
+void Start_Timer(TIMx_Reg_t *pTIMx)
+{
+	pTIMx->CR1 |= 1 << CEN;
+}
