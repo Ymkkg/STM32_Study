@@ -1,0 +1,11 @@
+# ninja log v5
+5	155	7547608961321154	CMakeFiles/04_I2C.dir/Driver/Src/flash_driver.c.obj	4aa9d25ada03a34f
+37	157	7547608961301162	CMakeFiles/04_I2C.dir/Startup/startup_stm32f407vgtx.s.obj	b8a2fa2f5d580338
+33	211	7547608961911129	CMakeFiles/04_I2C.dir/Src/sysmem.c.obj	b99c664d70f5311a
+10	179	7547608961561146	CMakeFiles/04_I2C.dir/Driver/Src/gpio_driver.c.obj	bf6a57c62c66fd3b
+16	180	7547608961571146	CMakeFiles/04_I2C.dir/Driver/Src/timer_driver.c.obj	cc7573fff07acc07
+13	189	7547608961661149	CMakeFiles/04_I2C.dir/Driver/Src/rcc_driver.c.obj	514e63e388708a0b
+25	181	7547608961571146	CMakeFiles/04_I2C.dir/Src/main.c.obj	2c01250138327ee7
+20	190	7547608961681152	CMakeFiles/04_I2C.dir/Src/Init.c.obj	1c66d30db28fb72e
+29	258	7547608962394240	CMakeFiles/04_I2C.dir/Src/syscall.c.obj	62378cb5b3028738
+259	427	7547608963411166	04_I2C.elf	8c462a1ec818bb39

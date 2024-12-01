@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "init.h": "c",
+        "flash_driver.h": "c",
+        "timer_driver.h": "c",
+        "gpio_driver.h": "c"
+    }
+}
