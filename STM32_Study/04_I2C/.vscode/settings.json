@@ -4,5 +4,7 @@
         "flash_driver.h": "c",
         "timer_driver.h": "c",
         "gpio_driver.h": "c"
-    }
+    },
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
 }
