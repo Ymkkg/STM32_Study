@@ -13,6 +13,9 @@
 #define ENABLE  1
 #define DISABLE 0
 
+#define SET_1BIT(pos)    |= 1 << pos 
+#define RESET_1BIT(pos)  &= ~(1 << pos) 
+
 /*
  * Bus Address
  */
@@ -35,7 +38,7 @@
 #define TIM6_ADDR		(APB1_ADDR + 0x1000)
 #define TIM7_ADDR		(APB1_ADDR + 0x1400)
 
-
+#define I2C1_ADDR       (APB1_ADDR + 0x5400)
 
 
 

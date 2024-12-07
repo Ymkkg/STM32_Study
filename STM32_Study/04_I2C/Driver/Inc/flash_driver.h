@@ -13,11 +13,6 @@
 #define SYSCLK_UNDER_150	4
 #define SYSCLK_UNDER_168	5
 
-/*
- * TIMx_CR1
- */
-
-
 typedef struct
 {
 	volatile uint32_t ACR;

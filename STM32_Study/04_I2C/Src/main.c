@@ -19,10 +19,13 @@
 #include <stdint.h>
 #include "Init.h"
 
+uint8_t data[5] = {1,2,3,4,5};
+
 int main(void)
 {
-
  	Init();
+
+	I2C_Send_Master_To_Slave((I2Cx_Reg_t*)I2C1_ADDR, 0x27, data, sizeof(data));
 
 	while(1)
 	{

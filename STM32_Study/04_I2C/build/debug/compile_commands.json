@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\i2c_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\i2c_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\i2c_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\i2c_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
   "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\rcc_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\rcc_driver.c",
   "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\rcc_driver.c",
   "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\rcc_driver.c.obj"

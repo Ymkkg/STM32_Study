@@ -3,8 +3,9 @@
 void Init(void)
 {
 	Init_Sysclk();
-	Init_GPIO();
 	Init_Timer();
+	Init_I2C();
+	Init_GPIO();
 }
 
 void Init_Sysclk(void)
@@ -36,8 +37,14 @@ void Init_Sysclk(void)
 
 void Init_PeriClk_Enable(void)
 {
+	//I2C
+	Enable_AHB1_Peri_Clk(GPIOBEN, ENABLE);
+	Enable_APB1_Peri_Clk(I2C1EN, ENABLE);
+
 	Enable_AHB1_Peri_Clk(GPIOCEN, ENABLE);
+	//LED
 	Enable_AHB1_Peri_Clk(GPIODEN, ENABLE);
+	//Delay
 	Enable_APB1_Peri_Clk(TIM6EN, ENABLE);
 }
 
@@ -49,10 +56,18 @@ void Init_Bus_Clock_Prescale(void)
 void Init_GPIO(void)
 {
 //	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOC_ADDR, 9, MODE_ALTER, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
-	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 12, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
-	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 13, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
-	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 14, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
-	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 15, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO);
+	//LED
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 12, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO, AF0);
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 13, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO, AF0);
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 14, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO, AF0);
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOD_ADDR, 15, MODE_OUTPUT, TYPE_PUSH_PULL, SPEED_LOW, PUPD_NO, AF0);
+
+	/**
+	 * PB7 -> I2C1_SDA
+	 * PB8 -> I2C1_SCL
+	 */
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOB_ADDR, 8, MODE_ALTER, TYPE_OPEN_DRAIN, SPEED_LOW, PUPD_PULL_UP, AF4);
+	Set_GPIO_Init_Config((GPIOx_Reg_t*)GPIOB_ADDR, 7, MODE_ALTER, TYPE_OPEN_DRAIN, SPEED_LOW, PUPD_PULL_UP, AF4);
 }
 
 void Init_Timer(void)
@@ -62,5 +77,16 @@ void Init_Timer(void)
 	Set_Timer_Prescaler((TIMx_Reg_t*)TIM6_ADDR, 83);
 	//1ms
 	Set_Timer_Auto_Reload((TIMx_Reg_t*)TIM6_ADDR, 999);
+}
 
+void Init_I2C(void)
+{
+	// 1. Set Peripheral Input Clock
+	I2C_Set_Peri_Clk((I2Cx_Reg_t*)I2C1_ADDR, 42);
+
+	// 2. Configure Clock Control register and rise time register
+	I2C_Set_SCL_Clk((I2Cx_Reg_t*)I2C1_ADDR, I2C_SCL_CLOCK_100KHZ);
+
+	// 3. Enable I2C Peripheral
+	I2C_Set_Peri_Enable((I2Cx_Reg_t*)I2C1_ADDR, ENABLE);
 }

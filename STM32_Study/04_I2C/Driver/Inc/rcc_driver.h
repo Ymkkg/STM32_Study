@@ -65,6 +65,7 @@
  */
 #define TIM6EN		4
 #define TIM7EN		5
+#define I2C1EN      21
 
 /*
  * RCC_PLLCFGR
