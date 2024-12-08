@@ -25,6 +25,14 @@
  */
 #define FREQ    0
 
+/**
+ * @brief I2C_SR1
+ * 
+ */
+#define SB		0
+#define ADDR	1
+#define BTF		2
+#define TXE		7
 
 
 typedef struct
