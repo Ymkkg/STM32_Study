@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "lcd.h": "c",
+        "timer_driver.h": "c",
+        "stm32f4xx.h": "c",
+        "i2c_driver.h": "c",
+        "rcc_driver.h": "c"
+    }
+}

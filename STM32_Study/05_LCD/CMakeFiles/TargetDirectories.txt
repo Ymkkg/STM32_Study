@@ -1,0 +1,3 @@
+C:/Test/STM32_Study/05_LCD/CMakeFiles/04_I2C.dir
+C:/Test/STM32_Study/05_LCD/CMakeFiles/edit_cache.dir
+C:/Test/STM32_Study/05_LCD/CMakeFiles/rebuild_cache.dir

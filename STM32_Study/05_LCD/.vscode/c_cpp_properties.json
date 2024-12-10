@@ -1,0 +1,23 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            /** 
+             * ms-vscode.cmake-tools plugin should be installed.
+             * 
+             * It provides data for C/C++ plugin,
+             * such as include paths, browse paths, defines, etc.
+             */
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/Inc/",
+                "${workspaceFolder}/Driver/Inc",
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include",
+                "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "${default}"
+        }
+    ]
+}

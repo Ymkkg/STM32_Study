@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\flash_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\flash_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\flash_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\flash_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\gpio_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\gpio_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\gpio_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\gpio_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\i2c_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\i2c_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\i2c_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\i2c_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\rcc_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\rcc_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\rcc_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\rcc_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Driver\\Src\\timer_driver.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\timer_driver.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Driver\\Src\\timer_driver.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Driver\\Src\\timer_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Src\\Init.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Src\\Init.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Src\\Init.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Src\\Init.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Src\\main.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Src\\main.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Src\\main.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Src\\main.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Src\\syscall.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Src\\syscall.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Src\\syscall.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Src\\syscall.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Src\\sysmem.c.obj -c C:\\Test\\STM32_Study\\04_I2C\\Src\\sysmem.c",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Src\\sysmem.c",
+  "output": "CMakeFiles\\04_I2C.dir\\Src\\sysmem.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/04_I2C/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/04_I2C/Inc -IC:/Test/STM32_Study/04_I2C/Driver/Inc -IC:/Test/STM32_Study/04_I2C -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb -o CMakeFiles\\04_I2C.dir\\Startup\\startup_stm32f407vgtx.s.obj -c C:\\Test\\STM32_Study\\04_I2C\\Startup\\startup_stm32f407vgtx.s",
+  "file": "C:\\Test\\STM32_Study\\04_I2C\\Startup\\startup_stm32f407vgtx.s",
+  "output": "CMakeFiles\\04_I2C.dir\\Startup\\startup_stm32f407vgtx.s.obj"
+}
+]
