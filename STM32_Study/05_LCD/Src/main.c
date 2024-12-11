@@ -20,19 +20,21 @@
 #include "Init.h"
 
 uint8_t data[5] = {1,2,3,4,5};
+uint8_t cnt = 0;
 
 int main(void)
 {
  	Init();
 
-	I2C_Send_Master_To_Slave((I2Cx_Reg_t*)I2C1_ADDR, 0x27, data, sizeof(data));
+	LCD_Init_4Bit_Interface();
 
+	
 	while(1)
 	{
-		Set_GPIO_Output((GPIOx_Reg_t*)GPIOD_ADDR, OUTPUT_SET, 12);
-		delay_ms(500);
-		Set_GPIO_Output((GPIOx_Reg_t*)GPIOD_ADDR, OUTPUT_RESET, 12);
-		delay_ms(500);
+		cnt++;
+		if(cnt > 100) cnt = 0;
+		Cal_SDcard_Usage(cnt%10, cnt/10, cnt);
+		LED_Blink();
 	}
 
 

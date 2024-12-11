@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: 04_I2C
+# Project: 05_LCD
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__04_I2C_unscanned_
+rule ASM_COMPILER__05_LCD_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__04_I2C_unscanned_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__04_I2C_unscanned_
+rule C_COMPILER__05_LCD_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__04_I2C_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__04_I2C_
+rule C_EXECUTABLE_LINKER__05_LCD_
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Test\STM32_Study\04_I2C -BC:\Test\STM32_Study\04_I2C\build
+  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Test\STM32_Study\05_LCD -BC:\Test\STM32_Study\05_LCD\build
   description = Re-running CMake...
   generator = 1
 

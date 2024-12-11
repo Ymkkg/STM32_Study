@@ -8,7 +8,13 @@
         "stm32f4xx.h": "c",
         "stdint.h": "c",
         "rcc_driver.h": "c",
-        "cstdint": "c"
+        "cstdint": "c",
+        "lcd.h": "c",
+        "util.h": "c",
+        "time.h": "c",
+        "array": "c",
+        "string": "c",
+        "lcd_com.h": "c"
     },
     "editor.fontFamily": "Fira Code Retina",
     "editor.fontLigatures": true,

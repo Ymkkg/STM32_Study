@@ -6,6 +6,8 @@
 #include "timer_driver.h"
 #include "flash_driver.h"
 #include "i2c_driver.h"
+#include "lcd_com.h"
+#include "util.h"
 
 void Init(void);
 void Init_Sysclk(void);

@@ -56,6 +56,6 @@ void I2C_Set_Peri_Enable(I2Cx_Reg_t *pI2Cx , uint8_t en_di);
 void I2C_Set_Peri_Clk(I2Cx_Reg_t *pI2Cx, uint8_t peri_clk);
 void I2C_Set_SCL_Clk(I2Cx_Reg_t *pI2Cx, uint32_t scl_clk);
 void I2C_Send_Master_To_Slave(I2Cx_Reg_t *pI2Cx, uint8_t addr, uint8_t *data, uint8_t length);
-
+void I2C_Send_One_Data_Master_To_Slave(I2Cx_Reg_t *pI2Cx, uint8_t addr, uint8_t data);
 
 #endif /* i2C_DRIVER_H */

@@ -11,10 +11,11 @@
 - P5 = D5
 - P6 = D6
 - P7 = D7
-- P8 = D8
 
 ##### Wirte Mode Timing Diagram
 DB7-0 should be written before Enable Off State 
+
+Enable이 꺼지는 순간에 Data가 Valid Data가 되므로 두번 보내야 됨
 ![alt text](image-1.png)
 
 

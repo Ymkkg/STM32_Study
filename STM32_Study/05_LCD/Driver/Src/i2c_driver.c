@@ -94,6 +94,39 @@ void I2C_Send_Master_To_Slave(I2Cx_Reg_t *pI2Cx, uint8_t addr, uint8_t *data, ui
 	pI2Cx->CR1 |= 1 << STOP;
 }
 
+/**
+ * @brief I2C Send Master to Slave One Data
+ * 
+ * @param pI2Cx 	I2C Module 1 ~ 3
+ * @param addr 		Slave Address
+ * @param data 		Data
+ * @param length 	Data Length
+ */
+void I2C_Send_One_Data_Master_To_Slave(I2Cx_Reg_t *pI2Cx, uint8_t addr, uint8_t data)
+{
+	//1. Start Generation
+	pI2Cx->CR1 |= 1 << START;
+	while((pI2Cx->SR1 & (1 << SB)) == 0);
+
+	//2. clear start bit and write address
+	pI2Cx->SR1;
+	pI2Cx->DR = ((addr << 1) | TRANSMITTER_MODE);
+	while((pI2Cx->SR1 & (1 << ADDR)) == 0);
+
+	//3. read SR1 and SR2 to clear addr bit
+	pI2Cx->SR1;
+	pI2Cx->SR2;
+
+	//4. write data
+	while((pI2Cx->SR1 & (1 << TXE)) == 0);
+	pI2Cx->DR = data;
+
+	//5. close communication
+	while((pI2Cx->SR1 & (1 << TXE)) == 0);
+	while((pI2Cx->SR1 & (1 << BTF)) == 0);
+	pI2Cx->CR1 |= 1 << STOP;
+}
+
 // void set_I2C_ACK_Enable(I2Cx_Reg_t *pI2Cx , uint8_t enordi)
 // {
 // 	if(enordi == ENABLE)

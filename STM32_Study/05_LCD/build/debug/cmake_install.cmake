@@ -1,8 +1,8 @@
-# Install script for directory: C:/Test/STM32_Study/04_I2C
+# Install script for directory: C:/Test/STM32_Study/05_LCD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/04_I2C")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/05_LCD")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Test/STM32_Study/04_I2C/build/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Test/STM32_Study/05_LCD/build/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
