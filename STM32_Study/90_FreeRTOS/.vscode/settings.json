@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "init.h": "c",
+        "flash_driver.h": "c",
+        "timer_driver.h": "c",
+        "gpio_driver.h": "c",
+        "i2c_driver.h": "c",
+        "stm32f4xx.h": "c",
+        "stdint.h": "c",
+        "rcc_driver.h": "c",
+        "cstdint": "c",
+        "lcd.h": "c",
+        "util.h": "c",
+        "time.h": "c",
+        "array": "c",
+        "string": "c",
+        "lcd_com.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "freertosconfig.h": "c",
+        "times.h": "c",
+        "cstdio": "c",
+        "segger_sysview_freertos.h": "c"
+    },
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "cortex-debug.variableUseNaturalFormat": true,
+}

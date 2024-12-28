@@ -1,0 +1,14 @@
+# ninja log v5
+71	243	7559517809917267	CMakeFiles/05_LCD.dir/Startup/startup_stm32f407vgtx.s.obj	9733be7373e33e8
+21	394	7559517811408043	CMakeFiles/05_LCD.dir/Driver/Src/gpio_driver.c.obj	78e10068fe47270
+15	406	7559517811357281	CMakeFiles/05_LCD.dir/Driver/Src/flash_driver.c.obj	4cdc7f884efbaafe
+37	404	7559517811337286	CMakeFiles/05_LCD.dir/Driver/Src/timer_driver.c.obj	76a46a041e0b32e9
+52	407	7559517811427287	CMakeFiles/05_LCD.dir/Src/main.c.obj	21c734b391c2b401
+61	408	7559517811257281	CMakeFiles/05_LCD.dir/Src/sysmem.c.obj	ed1cf9eed35c070e
+33	411	7559517811507298	CMakeFiles/05_LCD.dir/Driver/Src/rcc_driver.c.obj	48131aa637a06064
+42	410	7559517811347296	CMakeFiles/05_LCD.dir/Src/Init.c.obj	e49489135203afa3
+25	412	7559517811577290	CMakeFiles/05_LCD.dir/Driver/Src/i2c_driver.c.obj	17927ca7d1fb9139
+67	413	7559517811408043	CMakeFiles/05_LCD.dir/Src/util.c.obj	dc85ecf9a65c79e6
+47	431	7559517811828281	CMakeFiles/05_LCD.dir/Src/lcd_com.c.obj	4ce9dd9c3437d7da
+57	632	7559517813837275	CMakeFiles/05_LCD.dir/Src/syscall.c.obj	8fb1d13461ee474c
+632	1134	7559517817330437	05_LCD.elf	3490030b4c0e4237

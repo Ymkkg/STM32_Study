@@ -1,0 +1,170 @@
+[
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\flash_driver.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\flash_driver.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\flash_driver.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\flash_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\gpio_driver.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\gpio_driver.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\gpio_driver.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\gpio_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\i2c_driver.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\i2c_driver.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\i2c_driver.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\i2c_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\rcc_driver.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\rcc_driver.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\rcc_driver.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\rcc_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\timer_driver.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\timer_driver.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Driver\\Src\\timer_driver.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Driver\\Src\\timer_driver.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\Init.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\Init.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\Init.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\Init.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\lcd_com.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\lcd_com.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\lcd_com.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\lcd_com.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\main.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\main.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\main.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\main.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\syscall.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\syscall.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\syscall.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\syscall.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\sysmem.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\sysmem.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\sysmem.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\sysmem.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Src\\util.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\util.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Src\\util.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Src\\util.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\portable\\GCC\\ARM_CM4F\\port.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\portable\\GCC\\ARM_CM4F\\port.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\portable\\GCC\\ARM_CM4F\\port.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\portable\\GCC\\ARM_CM4F\\port.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\portable\\MemMang\\heap_4.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\portable\\MemMang\\heap_4.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\portable\\MemMang\\heap_4.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\portable\\MemMang\\heap_4.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\croutine.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\croutine.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\croutine.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\croutine.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\event_groups.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\event_groups.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\event_groups.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\event_groups.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\list.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\list.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\list.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\list.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\queue.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\queue.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\queue.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\queue.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\stream_buffer.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\stream_buffer.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\stream_buffer.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\stream_buffer.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\tasks.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\tasks.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\tasks.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\tasks.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\timers.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\timers.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\FreeRTOS\\timers.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\FreeRTOS\\timers.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\Config\\SEGGER_SYSVIEW_Config_FreeRTOS.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\Config\\SEGGER_SYSVIEW_Config_FreeRTOS.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\Config\\SEGGER_SYSVIEW_Config_FreeRTOS.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\Config\\SEGGER_SYSVIEW_Config_FreeRTOS.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\OS\\SEGGER_SYSVIEW_FreeRTOS.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\OS\\SEGGER_SYSVIEW_FreeRTOS.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\OS\\SEGGER_SYSVIEW_FreeRTOS.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\OS\\SEGGER_SYSVIEW_FreeRTOS.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -IC:/Test/STM32_Study/90_FreeRTOS -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_ASM_ARMv7M.S.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_ASM_ARMv7M.S",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_ASM_ARMv7M.S",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_ASM_ARMv7M.S.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_printf.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_printf.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_printf.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_RTT_printf.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_SYSVIEW.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_SYSVIEW.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_SYSVIEW.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\SEGGER_SYSVIEW.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\Syscalls\\SEGGER_RTT_Syscalls_GCC.c.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\Syscalls\\SEGGER_RTT_Syscalls_GCC.c",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\ThirdParty\\SEGGER\\SEGGER\\Syscalls\\SEGGER_RTT_Syscalls_GCC.c",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\ThirdParty\\SEGGER\\SEGGER\\Syscalls\\SEGGER_RTT_Syscalls_GCC.c.obj"
+},
+{
+  "directory": "C:/Test/STM32_Study/90_FreeRTOS/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Test/STM32_Study/90_FreeRTOS/Inc -IC:/Test/STM32_Study/90_FreeRTOS/Driver/Inc -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/include -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/Config -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/OS -IC:/Test/STM32_Study/90_FreeRTOS/ThirdParty/SEGGER/SEGGER -IC:/Test/STM32_Study/90_FreeRTOS -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb -o CMakeFiles\\90_FreeRTOS.dir\\Startup\\startup_stm32f407vgtx.s.obj -c C:\\Test\\STM32_Study\\90_FreeRTOS\\Startup\\startup_stm32f407vgtx.s",
+  "file": "C:\\Test\\STM32_Study\\90_FreeRTOS\\Startup\\startup_stm32f407vgtx.s",
+  "output": "CMakeFiles\\90_FreeRTOS.dir\\Startup\\startup_stm32f407vgtx.s.obj"
+}
+]
